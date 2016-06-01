@@ -5,9 +5,13 @@ matplotlib==1.5.1
 numpy==1.11.0
 pgzero==1.1
 Pillow==3.2.0
+PyAutoGUI==0.9.33
 pygame==1.9.2a0
 pyglet==1.2.4
-pyparsing==2.1.1
-python-dateutil==2.5.2
-pytz==2016.3
+PyMsgBox==1.0.3
+pyparsing==2.1.4
+PyScreeze==0.1.8
+python-dateutil==2.5.3
+PyTweening==1.0.3
+pytz==2016.4
 six==1.10.0
