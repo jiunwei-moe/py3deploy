@@ -5,6 +5,7 @@ cycler==0.10.0
 decorator==4.0.10
 entrypoints==0.2.2
 et-xmlfile==1.0.1
+idlex==1.13
 ipykernel==4.3.1
 ipython==4.2.0
 ipython-genutils==0.1.0
