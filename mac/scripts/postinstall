@@ -1,0 +1,22 @@
+#!/bin/sh
+
+PYVER="3.5"
+FWK="/Library/Frameworks/Python.framework/Versions/3.5"
+TMPDIR="/tmp"
+
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" cocos2d
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" pygame
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" pgzero
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" numpy
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" matplotlib
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" jupyter
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" pandas
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" openpyxl
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" PyPDF2
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" python-docx
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" colorama
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" idlex
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" pyFirmata
+"${FWK}/bin/python3.5" -m pip install --no-index -f "${TMPDIR}" Pillow
+
+exit 0

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="org.python.Python.PythonApplications-3.5" postinstall-action="none" version="0" format-version="2" generator-version="InstallCmds-554 (15F34)" install-location="/Applications" auth="root">
+    <payload numberOfFiles="44" installKBytes="504"/>
+    <bundle path="./Python 3.5/IDLE.app" id="org.python.IDLE" CFBundleShortVersionString="3.5.2" CFBundleVersion="3.5.2"/>
+    <bundle path="./Python 3.5/Python Launcher.app" id="org.python.PythonLauncher" CFBundleShortVersionString="3.5.2" CFBundleVersion="3.5.2"/>
+    <bundle-version>
+        <bundle id="org.python.IDLE"/>
+        <bundle id="org.python.PythonLauncher"/>
+    </bundle-version>
+    <upgrade-bundle>
+        <bundle id="org.python.IDLE"/>
+        <bundle id="org.python.PythonLauncher"/>
+    </upgrade-bundle>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier>
+        <bundle id="org.python.IDLE"/>
+        <bundle id="org.python.PythonLauncher"/>
+    </strict-identifier>
+    <relocate/>
+</pkg-info>
