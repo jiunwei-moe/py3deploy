@@ -115,17 +115,18 @@ def demo_python_docx():
 def demo_colorama():
     import colorama
     colorama.init()
-    question = 'Is this question multi-coloured?'
-    colored_question = ''
+    output = 'colorama OK'
+    colored_output = ''
     colors = [
         colorama.Fore.RED, colorama.Fore.GREEN, colorama.Fore.YELLOW,
         colorama.Fore.BLUE, colorama.Fore.MAGENTA, colorama.Fore.CYAN
     ]
-    for index in range(len(question)):
+    for index in range(len(output)):
         i = index % len(colors)
-        colored_question += colors[i] + question[index]
-    colored_question += colorama.Style.RESET_ALL
-    return confirm(colored_question)
+        colored_output += colors[i] + output[index]
+    colored_output += colorama.Style.RESET_ALL
+    print(colored_output)
+    return confirm('Is the message "colorama OK" above multi-coloured?')
 
 
 def demo_others():
@@ -151,10 +152,10 @@ def main():
     ]
     for d in demos:
         if not d():
-            print('TEST FAILED!')
+            print('DEMO FAILED!')
             input('(Hit enter to quit)\n')
             return
-    print('ALL TESTS SUCCEEDED!')
+    print('ALL DEMOS SUCCEEDED!')
     input('(Hit enter to quit)\n')
 
 
